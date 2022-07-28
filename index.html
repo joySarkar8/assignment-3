@@ -219,52 +219,111 @@
             </div>
         </div>
     </section>
-
+   
     <!-- register area start -->
     <section class="container">
-        <div class="d-flex justify-content-between align-items-center bg-primary p-5">
-            <div class="w-75">
+        <div class="row row-cols-1 row-cols-lg-2 g-0 align-items-center bg-primary p-5 text-center text-lg-start">
+            <div class="col">
                 <h2 class="text-white">Ready to join?</h2>
                 <p class="mb-0 text-white">It is a long established fact that a reader will be distracted by the
                     readable content of a page when
                     looking at its layout.</p>
             </div>
-            <div class="">
+            <div class="col">
                 <!-- <button type="button" class="px-4 btn btn-primary bg-white text-primary">Register Now</button> -->
-                <button type="button" class="btn btn-primary bg-white text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-        data-bs-whatever="@mdo">Register Now</button>
+                <div class="text-lg-end">
+                    <button type="button" class="btn btn-primary bg-white text-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+                </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Education-hub.com</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="recipient-name" class="col-form-label">Username:</label>
-                            <input type="text" class="form-control" id="recipient-name">
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Education-hub.com</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3 text-start">
+                                        <label for="recipient-name" class="col-form-label">Username:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3 text-start">
+                                        <label for="recipient-name" class="col-form-label">Email:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3 text-start">
+                                        <label for="recipient-name" class="col-form-label">Password:</label>
+                                        <input type="password" class="form-control" id="recipient-name">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Sign up</button>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="recipient-name" class="col-form-label">Email:</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="recipient-name" class="col-form-label">Password:</label>
-                            <input type="password" class="form-control" id="recipient-name">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Sign up</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- student area start -->
+    <section class="container">
+        <h2>Meet Our Successfull Students</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col d-none d-md-block">
+                <div class="border rounded">
+                    <div>
+                        <img class="w-100" src="img/student/student-1.png" alt="">
+                    </div>
+                    <div class="p-3 text-center text-md-start">
+                        <h5>Awlad Hossain</h5>
+                        <p>UIUX Designer</p>
+                    </div>
+                </div>
             </div>
+            <div class="col">
+                <div class="border rounded">
+                    <div>
+                        <img class="w-100" src="img/student/student-2.png" alt="">
+                    </div>
+                    <div class="p-3 text-center text-md-start">
+                        <h5>Jannatul Islam</h5>
+                        <p>Motion Design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+               <div class="border rounded">
+                <div>
+                    <img class="w-100" src="img/student/student-3.png" alt="">
+                </div>
+                <div class="p-3 text-center text-md-start">
+                    <h5>Imran Hossain</h5>
+                    <p>Graphic Designer</p>
+                </div>
+            </div>
+               </div>
+            <div class="col">
+                <div class="border rounded">
+                    <div>
+                        <img class="w-100" src="img/student/student-4.png" alt="">
+                    </div>
+                    <div class="p-3 text-center text-md-start">
+                        <h5>Nishi Akter</h5>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                </div>
+        </div>
+        <div class="text-center d-block d-md-none">
+            <button type="button" class="btn btn-primary">View all</button>
         </div>
     </section>
 
@@ -274,7 +333,7 @@
 
 
 
-    
+
 
 
 
